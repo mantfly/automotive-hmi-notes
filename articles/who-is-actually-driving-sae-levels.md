@@ -31,7 +31,7 @@ We can understand the whole framework without beginning with acronyms. For any d
 
 One detail matters: an automation level belongs to a particular feature under particular conditions, not necessarily to the whole car. The same vehicle could contain an L0 emergency-braking feature, an L2 highway-assistance feature and an L4 automated-parking feature.
 
-*[Insert Figure 1 here]*
+![Figure 1: Who Monitors the Driving Environment?](../assets/sae-levels/figure-1-road-monitoring.png)
 
 *Figure 1. Four questions reveal how control, monitoring and fallback are divided—and where the feature is designed to work.*
 
@@ -87,7 +87,7 @@ An L2 interface therefore needs to keep three things continuously understandable
 - what conditions it can currently handle;
 - what the driver must still do.
 
-*[Insert Figure 2 here]*
+![Figure 2: Where Can the System Drive?](../assets/sae-levels/figure-2-operational-design-domain.png)
 
 *Figure 2. Smooth assistance can increase trust, reduce attention and make the eventual human response slower. Driver monitoring helps detect disengagement, but it does not transfer responsibility away from the driver.*
 
@@ -115,7 +115,7 @@ More recent work is beginning to turn that broad problem into specific interface
 
 A useful L3 interface must therefore explain why intervention is needed, how much time is available, what the vehicle is doing and when control has actually transferred. A loud alarm can attract attention, but it cannot instantly rebuild awareness of nearby traffic or disappearing lane markings.
 
-*[Insert Figure 3 here]*
+![Figure 3: When Assistance Feels Like Autonomy](../assets/sae-levels/figure-3-l2-supervision-paradox.png)
 
 *Figure 3. A safe takeover requires attention, situation awareness, a decision and physical control—not merely a hand touching the steering wheel.*
 
@@ -162,7 +162,7 @@ At this level, HMI becomes entirely passenger-facing: destination management, ac
 | **L4** | System within its ODD | System | System | Passenger |
 | **L5** | System across human-manageable on-road conditions | System | System | Passenger |
 
-*[Insert Figure 4 here]*
+![Figure 4: The Spectrum of Driving Automation](../assets/sae-levels/figure-4-automation-spectrum.png)
 
 *Figure 4. Automation advances through transfers of control, monitoring and fallback—not through a simple increase in “intelligence.”*
 
